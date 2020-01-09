@@ -7,7 +7,7 @@ package security
 
 import (
 	"context"
-	"github.com/WhizUs/go-opendistro/common"
+	"github.com/SvenHamers/go-opendistro/common"
 	"net/http"
 )
 
