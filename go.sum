@@ -1,3 +1,5 @@
+github.com/WhizUs/go-opendistro v0.0.0-20191109142623-d13365657768 h1:7sMCmmhRvihyPPsjGq3/uGabNRvbteE+cplVoklaKCM=
+github.com/WhizUs/go-opendistro v0.0.0-20191109142623-d13365657768/go.mod h1:i4UxiXrVadS9UkxjOubBUP64hgHE3IbADL8Q+AXcJck=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/hashicorp/go-cleanhttp v0.5.1 h1:dH3aiDG9Jvb5r5+bYHsikaOUIpcM0xvgMXVoDkXMzJM=

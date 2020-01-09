@@ -22,20 +22,22 @@ type UserServiceInterface interface {
 }
 
 type UserCreate struct {
-	Password     string            `json:"password,omitempty"`
-	BackendRoles []string          `json:"backend_roles,omitempty"`
-	Attributes   map[string]string `json:"attributes,omitempty"`
+	Password        string            `json:"password,omitempty"`
+	BackendRoles    []string          `json:"backend_roles,omitempty"`
+	OpenDistroRoles []string          `json:"opendistro_security_roles,omitempty"`
+	Attributes      map[string]string `json:"attributes,omitempty"`
 }
 
 type User struct {
-	Name         string
-	Hash         string            `json:"hash"`
-	Reserved     bool              `json:"reserved"`
-	Hidden       bool              `json:"hidden"`
-	BackendRoles []string          `json:"backend_roles"`
-	Attributes   map[string]string `json:"attributes"`
-	Description  string            `json:"description"`
-	Static       bool              `json:"static"`
+	Name            string
+	Hash            string            `json:"hash"`
+	Reserved        bool              `json:"reserved"`
+	Hidden          bool              `json:"hidden"`
+	BackendRoles    []string          `json:"backend_roles"`
+	OpenDistroRoles []string          `json:"opendistro_security_roles"`
+	Attributes      map[string]string `json:"attributes"`
+	Description     string            `json:"description"`
+	Static          bool              `json:"static"`
 }
 
 // Get a single user by name
