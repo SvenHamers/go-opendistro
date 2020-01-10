@@ -15,6 +15,7 @@ type Health struct {
 	Message string `json:"message"`
 	Mode    string `json:"mode"`
 	Status  string `json:"status"`
+	
 }
 
 func (s *HealthService) Get(ctx context.Context) (*Health, error) {
